@@ -1,0 +1,7 @@
+.image{
+    height: 25%;
+    width: 25%;
+    border: 4px;
+    border-style: solid;
+    border-color: red;
+}
