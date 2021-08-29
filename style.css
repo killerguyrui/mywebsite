@@ -5,11 +5,15 @@ body, html{
     -o-background-size: cover;
     background-size: cover;
 }
-  
+.image:hover{
+    border-color:royalblue;
+    transition: 0.5s;
+    filter: saturate(1.25);
+}
 .image{
     height: 25%;
     width: 25%;
     border: 4px;
     border-style: solid;
-    border-color: black;
+    border-color: gray;
 }
