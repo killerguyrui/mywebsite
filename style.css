@@ -6,14 +6,20 @@ body, html{
     background-size: cover;
 }
 .image:hover{
-    border-color:royalblue;
+    border-color:rgb(79, 123, 255);
     transition: 0.5s;
     filter: saturate(1.25);
+}
+img{
+    border: 3px; 
 }
 .image{
     height: 25%;
     width: 25%;
-    border: 4px;
     border-style: solid;
     border-color: gray;
+}
+h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
